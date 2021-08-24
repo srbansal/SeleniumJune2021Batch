@@ -2,12 +2,9 @@ package scripts.basics;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.server.handler.SendKeys;
 import org.testng.annotations.AfterClass;
 
 public class BrowserOps {
@@ -42,7 +39,7 @@ public class BrowserOps {
       driver.manage().window().setSize(size);
       
       driver.navigate().to(driver.getCurrentUrl());
-      driver.
+     
   }
   @BeforeClass
   public void beforeClass() {

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="group1">
+				</include>
+				<include name="group2">
+				</include>
+			</run>
+		</groups>
+		<classes>
+			<class name="scripts.basics.GroupTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
