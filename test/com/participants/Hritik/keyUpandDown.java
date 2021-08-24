@@ -1,4 +1,4 @@
-package com.teams.team7;
+package scripts.basics;
 
 import java.util.concurrent.TimeUnit;
 
@@ -31,6 +31,7 @@ public class keyUpandDown {
 			WebElement btn = driver.findElement(By.id("btnSearch"));//Finding element to perform double click action
 			a.moveToElement(btn).build().perform(); //cursor hover			
 			a.doubleClick(btn).perform();//Double click action to search
+			driver.close();
 			
 	}catch(Exception e) {
 		

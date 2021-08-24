@@ -14,5 +14,6 @@ public class GroupTest {
   @Test(groups= {"group3","group1"})
   public void t31() {
   System.out.println("T31");
+  
   }
 }
