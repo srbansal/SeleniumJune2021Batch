@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <parameter name="suite-param" value ="Selenium"></parameter>
+     <classes>
+      <class name="scripts.basics.ParameterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
