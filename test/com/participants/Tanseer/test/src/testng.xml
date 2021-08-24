@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel test Suite" parallel="methods" thread-count="2">
+  <test name="Regression 1">
+    <classes>
+      <class name="scipts.basics.multiThreading"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
